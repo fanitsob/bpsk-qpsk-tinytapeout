@@ -10,7 +10,7 @@ async def test_bpsk_qpsk(dut):
     dut.uio_in.value = 0
     dut.rst_n.value = 0
 
-    cocotb.start_soon(Clock(dut.clk, 10, unit="us").start())
+    cocotb.start_soon(Clock(dut.clk, 10, units="us").start())
     await ClockCycles(dut.clk, 2)
 
     assert int(dut.uo_out.value) == 0, "Reset failed"
