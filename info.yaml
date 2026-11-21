@@ -1,7 +1,7 @@
 # Tiny Tapeout project information
 project:
   title:        "BPSK/QPSK Digital Modulator"      # Project title
-  author:       ""      # Your name
+  author:       "Fani Tsompani"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Configurable BPSK/QPSK baseband symbol mapper with valid signaling"      # One line description of what your project does
   language:     "SystemVerilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
